@@ -3,6 +3,7 @@
 
 const Hapi = require('hapi');
 const vision = require('vision');
+//Below is how I would call my API..
 //const url="api.openweathermap.org/data/2.5/weather?zip=55405,us&units=imperial&APPID=2c3004ca33cbb4a1de197fab6e008bd9";
 const url="https://data.cityofnewyork.us/resource/swhp-yxa4.json";
 const https = require('https');
